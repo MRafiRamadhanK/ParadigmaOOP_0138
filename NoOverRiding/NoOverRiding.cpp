@@ -7,11 +7,17 @@ public:
 		cout << "Hallo saya function dari base class";
 	}
 };
-class derivideclass : public baseClass {
+class derivedclass : public baseClass {
 public:
 	void perkenalan() {
 		cout << "hallo saya function dari derived class";
 	}
 };
 
-int 
+int main() {
+	derivedclass a;
+	a.perkenalan;
+
+	return 0;
+
+}
